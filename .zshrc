@@ -1,7 +1,7 @@
 export ZSH=~/.zsh
 
 PATH=/usr/local/share/pypy:/usr/local/bin:/usr/local/sbin:$PATH
-fpath=($HOME/.zsh/functions $fpath)
+fpath=($HOME/.zsh/functions /usr/local/share/zsh-completions $fpath)
 
 autoload -Uz beer
 
@@ -9,6 +9,7 @@ autoload -Uz beer
 for config_file ($ZSH/lib/*.zsh) source $config_file
 
 source $ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZSH/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 # Load and run compinit
 autoload -U compinit
