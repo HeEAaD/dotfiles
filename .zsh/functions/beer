@@ -1,0 +1,4 @@
+beer () {
+	echo 'Getting a new 🍺 ...'
+	brew update && brew upgrade
+}
