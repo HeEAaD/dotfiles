@@ -3,4 +3,4 @@ dotfiles
 
 Just my ~/.files
 
-inspried by http://github.com/hukl/dotfiles
+inspired by http://github.com/hukl/dotfiles
