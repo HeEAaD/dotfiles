@@ -12,6 +12,9 @@ bindkey "^[[6~" down-line-or-history
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
+bindkey -M menuselect ' ' accept-and-infer-next-history
+bindkey -M menuselect "^?" undo
+
 bindkey "^[[H" beginning-of-line
 bindkey "^[[1~" beginning-of-line
 bindkey "^[OH" beginning-of-line
