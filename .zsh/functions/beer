@@ -1,4 +1,4 @@
 beer () {
 	echo 'Getting a new 🍺 ...'
-	brew update && brew upgrade --all
+	brew update && brew upgrade
 }
