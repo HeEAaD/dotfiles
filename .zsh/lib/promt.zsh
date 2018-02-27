@@ -26,4 +26,4 @@ short_pwd() {
 	echo $PWD | sed -e "s|^$HOME|~|" -e 's|^/private||' -e 's-\([^/.]\)[^/]*/-\1/-g'
 }
 
-PROMPT='%B$FG[010]%n%b$FG[015]@%B$FG[014]%m%b $FG[002]$(short_pwd)${vcs_info_msg_0_}%(?.. %B$FG[001][%?])%{$reset_color%}> '
+PROMPT='%B$FG[010]%n%b$FG[015]@%B$FG[053]%m%b $FG[002]$(short_pwd)${vcs_info_msg_0_}%(?.. %B$FG[001][%?])%{$reset_color%}> '
