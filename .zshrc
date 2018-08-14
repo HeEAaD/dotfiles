@@ -1,7 +1,10 @@
 export ZSH=~/.zsh
+export REACT_EDITOR=code
 
 PATH=/usr/local/share/pypy:/usr/local/bin:/usr/local/sbin:$PATH
 fpath=($HOME/.zsh/functions /usr/local/share/zsh-completions $fpath)
+
+GOPATH=$HOME/go
 
 autoload -Uz beer
 
