@@ -20,3 +20,5 @@ source $ZSH/zsh-history-substring-search/zsh-history-substring-search.zsh
 # Load and run compinit
 autoload -U compinit
 compinit -i
+
+eval "$(rbenv init -)"
