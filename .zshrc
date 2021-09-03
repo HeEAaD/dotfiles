@@ -1,6 +1,9 @@
 export ZSH=~/.zsh
 export REACT_EDITOR=code
 
+# M1 Mac Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 PATH=/usr/local/share/pypy:/usr/local/bin:/usr/local/sbin:$PATH
 fpath=($HOME/.zsh/functions /usr/local/share/zsh-completions $fpath)
 
