@@ -1,6 +1,6 @@
 beer () {
 	echo 'Getting a new 🍺 ...'
 	export HOMEBREW_NO_ANALYTICS=1
-	brew update && brew upgrade && brew cleanup
+	brew update && brew upgrade --no-ask && brew cleanup
 	brew outdated --cask
 }
